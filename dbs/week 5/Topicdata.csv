@@ -1,0 +1,30 @@
+TopicID,TopicDesc,ModuleID
+1,conceputal datamodel,106
+2,logical datamodel,106
+3,physical datamodel,106
+4,relational datamodel,106
+5,SQL,106
+6,NoSQL,106
+7,Flask,101
+8,HTML,101
+9,JavaScript,101
+10,OOP,105
+11,Web Security,101
+12,Responsive Design,102
+13,Responsive Design,101
+14,Lambda Functions,105
+15,SDLC,110
+16,Data management,103
+17,Data management,104
+18,Data management,106
+19,Data management,107
+20,Data management,108
+21,Data management,109
+22,Data management,111
+23,Data management,114
+24,Data management,115
+25,Data management,118
+26,Project management,117
+27,Software processes,117
+28,Software processes,116
+29,HTTP request and response,null

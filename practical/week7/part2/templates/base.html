@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block head %}    
+    <title>
+        {% block title %}
+        this is base title
+        {% endblock %}
+    </title>
+    {% endblock %}
+</head>
+<body>
+    <div>
+        {% block content %}
+        this is base content area
+        {% endblock %}
+    </div>
+    <div>
+        {% block footer %}
+        this is base footer area
+        {% endblock %}
+    </div>
+</body>
+</html>

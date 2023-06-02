@@ -1,0 +1,56 @@
+Sand Lizard,Endangered Species
+Slow-worm,Endangered Species
+European Mole,The European mole's fur can lie at any angle. This allows the animal to go backward as well as forward through its tunnels.
+Hazel Dormouse,Endangered Species
+St Kilda Field ,These mice weighs up to 50g which makes is huge compares to other species of field mice.
+Mouse,
+Harvest Mouse,The Harvest Mouse is the smallest rodent in Britain and weighs less than a 2 pence coin.
+House Mouse,This is the most common mammal in the UK.
+Wood Mouse,The lightly-furred tail of the wood mouse is longer than that of other mouse species.
+Yellow-necked Mouse,Dobrava virus (DOBV) carried by the yellow-necked field mouse is one of the hantaviruses that can cause severe hemorrhagic fever with renal syndrome in humans. 
+Alpine Newt,These were introduced to southern England in the 1930s and several populations have become established as far north as Sunderland.
+Great Crested Newt,Endangered Species
+Italian Crested Newt,It is able to hybridise with the native Great Crested Newt and is therefore cause for concern.
+Palmate Newt,"It is said that the name 'palmate' is derived from of the appearance of the newt's feet, the skin between its toes looking like the palm of a hand. "
+Smooth Newt,The smooth newt is the commonest species of newt in the UK. 
+European Otter,Endangered Species
+Harbor Porpoise,Endangered Species
+Domestic Rabbit,"Rabbits are not rodents they are lagomorphs, rabbits teeth never stop growing, rabbits cannot vomit. "
+Black Rat,Black rats were responsible for spreading the Bubonic Plague during the Middle Ages as they carried the flea which transmitted this disease.
+Brown Rat,The only species to occur in sewers in the UK.
+Fire Salamander,Their skin is black and yellow which is poisonous due to the fact that they have rows of poison glands extending lengthwise down the animal's body to secrete neurotoxins.
+Bearded Seal,"They feed in shallow water on the fish and invertebrates that they sift out with their long whiskers, from which they take their name."
+Common Seal,"They are the most widespread of the pinniped family, with the UK boasting five percent of the worlds population."
+Grey Seal,Grey seals are the largest breeding seals found in the UK weighing up to 233kg.
+Hooded ,Hooded seals are named for the bi-lobed hood-an enlargement of the nasal cavity on the heads of males.
+Seal,
+Ringed Seal,The animal takes its name from the irregular circular patterns on the back and sides of its coat it is also an earless seal. 
+Common Shrew,"The Common Shrew is always hungry, it needs to eat 80-90 percent of its body weight every day."
+Eurasian Pygmy Shrew,This is the smallest mammal of Britain.
+Eurasian Water Shrew,"The Water Shrew, has venomous saliva, although it is not able to puncture the skin of large mammals such as humans. "
+Adder,Endangered Species
+Aesculapian Snake,"In the UK the Aesculapian Snake can only be found in a small area of Wales where it has been living and breeding succesfully since the seventies, it is an egg-laying constrictor. "
+Dice Snake,This snake is not venomous. As a defense it spreads a very bad smelling secretion from its cloaca. 
+Grass Snake,Endangered Species
+Smooth Snake,Endangered Species
+Grey Squirrel,"The first authenticated record of the grey squirrel being released in England was by T V Brocklehurst in the grounds of Henbury Park, Cheshire, in 1876."
+Red Squirrel,Endangered Species
+Common Toad,"The common frog can breathe through its skin, Common Toads secrete an irritant from their skin that prevents most predators from wanting to eat them."
+Midwife Toad,The back of the midwife toad is covered with small warts. These warts give off a strong smelling poison when the toad is handled or attacked.
+Natterjack Toad,Endangered Species
+Yellow-bellied Toad,This toad enjoys long periods of sun basking but is rarely if ever found far from water. 
+European Pond Turtle,
+Green Sea Turtle,
+Hawksbill Turtle,
+Leatherback Sea Turtle,
+Loggerhead Sea Turtle,
+Bank Vole,
+Common Vole,
+Field Vole,
+European water vole,Endangered Species
+Red-necked Wallaby,
+Walrus,
+European Pine Marten,
+European Polecat,
+Stoat,
+Weasel,

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .image2 {
+            display: none;
+        }
+
+        @media only screen and (min-width:300px) {
+
+            .img3,
+            .img2 {
+                display: none;
+            }
+
+            .img1 {
+                display: block;
+            }
+        }
+
+        @media only screen and (min-width:600px) {
+
+            .img3,
+            .img1 {
+                display: none;
+            }
+
+            .img2 {
+                display: block;
+            }
+        }
+
+        @media only screen and (min-width:900px) {
+
+            .img1,
+            .img2 {
+                display: none;
+            }
+
+            .img3 {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./xsmall-image-200x97.jpg" class="img1" />
+    <img src="./small-image-300x145.jpg" class="img2" />
+    <img src="./large-image-621x300.jpg" class="img3" />
+</body>
+
+</html>

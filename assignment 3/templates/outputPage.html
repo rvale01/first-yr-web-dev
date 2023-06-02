@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+</head>
+
+<body>
+
+    <div class="output">
+        <h1>Welcome {{username}}</h1>
+        <h4>Sorted numbers:</h4>
+        <div class="row">
+            {% for x in sortedNum%}
+            <h5>{{x}}</h5>
+            {% endfor%}
+        </div>
+        <a href="/">Go back</a>
+
+
+
+    </div>
+
+</body>
+
+</html>

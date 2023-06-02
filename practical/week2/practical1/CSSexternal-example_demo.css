@@ -1,0 +1,9 @@
+.class-example { 
+	background-color: #FBFFFB; 
+	font-size: 13px; 
+	color: indigo; 
+	padding: 10px; 
+	border-style: solid; 
+	border-left-width: 35px; 
+	border-color: black; 
+}

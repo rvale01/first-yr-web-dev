@@ -1,0 +1,19 @@
+<html>
+   <body>
+      <h1>Student Record</h1>
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+         <h3>Enter Student Information</h3>
+         StudentID<br>
+         <input type = "number" name = "sid" min="1000" max="10000000" required/><br>
+
+         Name<br>
+         <input type = "text" name = "name" required/><br>
+         
+         Email<br>
+         <input type = "email" name = "email" required/><br>               
+         
+         <input type = "submit" value = "submit" /><br>
+      </form>
+      
+   </body>
+</html>

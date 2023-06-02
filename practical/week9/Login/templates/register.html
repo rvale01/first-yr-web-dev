@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Signup page </title>
+</head>
+<body>
+    <h1 style='color:blue;'>
+        Welcome to Signup page            
+    </h1>
+    <p style="color:brown;">{{error}}</p>
+    <form action="/register/" method="post">
+    username: <input type="text" name="username" value="{{request.form.username}}"> <br/>
+    password: <input type="password" name="password" value="{{request.form.password}}"> <br/>
+    email: <input type="email" name="email" value="{{request.form.email}}" size="40"> <br/>
+    <input type="submit" value="Register" > <br/>
+    </form>       
+    <br/>
+    <a href="/">Return to main page</a>
+</body>
+</html>

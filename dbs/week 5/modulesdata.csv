@@ -1,0 +1,20 @@
+MID,MNAME,LEVEL, TUTOR_Tut_Id
+101,Web Programming,1,1004
+102,Web Design,1,1000
+103,CMS,1,1000
+104,E-Commerce,1,1000
+105,Advanced Programming,2,1002
+106,Advanced Databases,2,1006
+107,Artificial Intelligence,2,1005
+108,Machine Learning,2,1005
+109,Data Science,2,1002
+110,Project Workshops,3,1006
+111,Data Analytics and Visualisation,3,1002
+112,Distributed and Parallel computing,3,1004
+114,Cyber Security,3,1006
+115,Deep Learning,3,1002
+116,Computing Project,3,1004
+117,Placement,3,1001
+118,Requirements Engineering,3,1001
+119,Web Development and DB,1,null
+120,Networks,3,null

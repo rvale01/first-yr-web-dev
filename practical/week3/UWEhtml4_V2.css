@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    margin-top: 0;
+}
+
+nav,.container, h1, footer, .boxes{
+    border: solid gray 1px;
+    padding: 10px;
+}
+
+.container{
+    width: 60%;
+}
+
+aside{
+    width: 20%;
+}
+
+nav{
+    width: 20%;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.boxes{
+    background-color: yellow;
+}
+.boxes>h2{
+    color: blue;
+}
+
+/* .box{
+    background-color: red;
+    padding: 30px;
+    width: 90px;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes animation1{
+    0% {margin-left: 0; bottom: 0px;}
+    20% {margin-left: 200px; bottom:150px}
+    60% {margin-left: 600px;bottom: 0px;}
+} */
+
+footer{
+    background-color:deeppink; 
+    text-align: center; 
+    padding: 25px; 
+    font: 20px italic;
+    color: turquoise;
+}

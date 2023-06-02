@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+</head>
+
+<body>
+
+    <div class="inputs">
+
+        <form action='/getInputs' method="POST">
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Username" name="username" required/>
+
+            <label for="num1">Number 1:</label>
+            <input type="number" placeholder="Number 1" name="num1" required/>
+
+            <label for="num2">Number 2:</label>
+            <input type="number" placeholder="Number 2:" name="num2" required/>
+
+            <label for="num3">Number 3:</label>
+            <input type="number" placeholder="Number 3" name="num3" required/>
+            <input type="submit" class="btn" />
+        </form>
+
+    </div>
+
+</body>
+
+</html>

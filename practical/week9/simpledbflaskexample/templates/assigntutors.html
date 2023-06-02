@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+   <body>
+      <h1>Tutor - Student Assignment</h1>
+      <h2>List of all Tutors:</h2>
+      <table border = 1>
+         <thead> <td>Tutor ID</td>
+            <td>Tutor Name</td>
+            <td>Tutees</td>            
+         </thead>         
+         {% for row in tutorrows %}
+            <tr> <td>{{row[0]}}</td>
+               <td>{{row[1]}}</td>
+               <td> {{row[2]}}</td>               
+            </tr>
+         {% endfor %}
+      </table>
+       <h2>List of Students with Tutors:</h2>
+      <form action = "{{ url_for('tutorstudentallocation') }}" method = "POST">
+         <table border = 1>
+            <thead> <td>ID</td>
+               <td>Name</td>
+               <td>Email</td>
+               <td>Tutor</td>
+               <td>Select student you would like to update tutor?</td>
+            </thead>         
+            {% for row in rows %}
+               <tr> <td>{{row[0]}}</td>
+                  <td>{{row[1]}}</td>
+                  <td>{{row[2]}}</td>
+                  <td>{{row[3]}}</td>
+                  <td style="text-align: center;"><input type="radio" name="studentid" value={{row[0]}} /></td>                  
+               </tr>
+            {% endfor %}
+         </table>
+         Enter Tutor Id:
+         <td><input type="text" name="tutorid" required /></td>
+         <input type="submit" value="Confirm Tutor Assignment" />
+      </form>
+      <a href = "/">Go back to home page</a>      
+   </body>
+</html>

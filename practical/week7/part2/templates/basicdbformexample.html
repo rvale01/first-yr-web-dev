@@ -1,0 +1,31 @@
+{% extends "layoutbase.html" %}
+{% block title %}DB Form Flask Home Page{% endblock %}
+{% block head %} {{ super() }}
+  <style type="text/css">
+   .important {background-color: white; color: green;}
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>This is Basic Form DB Example</h1>
+  <p class="important"> STUDENTSREG DATABASE <H2> Get Tutor Details</H2>
+    <form action="/show_tutor" method="GET"> 
+        Enter Tutor ID to get details: 
+        <input type="text" name="tutorid" id="tutorid"/>
+        <input type="submit" value="Get Tutor Details"/>
+    </form>
+    <H2> Show all Tutors</H2>    
+    <form action="/show_list">       
+        <input type="submit" value="Show all Tutors"/>
+    </form>
+    <H2> Add new Tutor</H2>
+    <form action="/add_tutor">    
+       Enter tutor id: <input type="text" name="tutorid"  id="tutorid"/>
+       Enter tutor name: <input type="text" name="tutorname"  id="tutorname"/>
+       Enter tutor DoB (yyyy/mm/dd): <input type="text" name="tutordob"  id="tutordob"/>
+       Enter Hours: <input type="text" name="tutorhours"  id="tutorhours" value="None"/>
+       <input type="submit" value="Add New Tutor"/>        
+    </form>    
+  </p>
+{% endblock %}
+
+

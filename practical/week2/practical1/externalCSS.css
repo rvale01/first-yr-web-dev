@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    height: 100%;
+    color: red;
+    text-align: center;
+    border: solid red 2px;
+}
+
+.side-bar{
+    margin-top: 1%;
+    float: left;
+    border: solid blue 2px;
+    padding: 20px;
+}
+
+.main{
+    border: solid green 2px;
+    width: 92%;
+    float: right;
+    margin-top: 1%;
+}
+
+.boxes{
+    display: flex;
+    width: max-content;
+    justify-content: center;
+}
+
+.boxes>div{
+    border: solid peru 2px;
+    margin: 30px;
+    display: flex;
+}
+
+footer{
+    border: solid orchid 2px;
+    text-align: center;
+}

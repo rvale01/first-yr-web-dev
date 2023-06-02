@@ -1,0 +1,36 @@
+.nav,.container, h1, footer, .boxes{
+    border: solid gray 1px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.nav>a{
+    margin-right: 10px;
+}
+
+.nav{
+    background-color: turquoise;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.boxes{
+    background-color: yellow;
+}
+.boxes>h2{
+    color: blue;
+}
+
+
+footer{
+    background-color:deeppink; 
+    text-align: center; 
+    padding: 25px; 
+    font: 20px italic;
+    color: turquoise;
+}

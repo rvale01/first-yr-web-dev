@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title> Login page </title>
+</head>
+<body>
+	<div>
+		<br>
+		<h4>Please Login:</h4>
+		<br>
+        <p style="color:red;"> {{error}} </p>
+
+		<form action="/login/" method="post">
+			username: <input type="text" name="username" value="{{request.form.username}}"> 
+			<br/>
+            password: <input type="password" name="password" value="{{request.form.password}}"> 
+			<br/>			
+            <input type="submit" value="Login"> <br/>
+            <a href="/">Return to main page</a>
+		</form>
+	</div>    
+</body>
+</html>

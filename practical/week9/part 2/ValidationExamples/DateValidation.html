@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Web programming - HTML example </title>
+
+        <script>
+
+
+        function formValidation(){
+
+            
+            document.getElementById("temp").innerHTML = "";
+            var userdate = document.getElementById("usrdate").value;
+            
+            userDate = new Date(userdate);
+
+            CurrentDate = new Date();
+
+            if (userDate < CurrentDate)
+            {
+                document.getElementById("temp").innerHTML = "Past date not allowed";
+                document.MyForm.usrdate.focus();
+                document.getElementById("usrdate").style.border='1px solid red';
+                return false;
+            }
+            var difference = userDate.getMonth() - CurrentDate.getMonth();
+
+            if (difference > 3)
+            {
+                document.getElementById("temp").innerHTML = "Only 3 months advance booking is allowed";
+                document.MyForm.usrdate.focus();
+                document.getElementById("usrdate").style.border='1px solid red';
+                return false;
+
+            }
+            else
+            {
+                document.getElementById("temp").innerHTML = "Date is validated";
+                return true;          
+            }
+                
+        }
+        </script>
+
+    </head>
+    <body>
+    
+        <H1> An Example of Form Validation </H1>
+        
+        <Form action="dumpsVar.py" method="POST" name="MyForm" onsubmit="return formValidation()">
+            
+                 
+                <p>Enter Date:</p>
+                <input type=date name="usrdate" id="usrdate">                   
+            
+                <p id='temp' style="color:red;"></p>
+               
+                <p>Submit button:</p>
+                <input type=submit value="Enter Record">
+
+        </Form>        
+        
+    </body>
+</html>

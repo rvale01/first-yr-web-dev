@@ -1,0 +1,7 @@
+eggs
+potatoes
+ice cream
+avocados
+yogurt
+apples
+cheese

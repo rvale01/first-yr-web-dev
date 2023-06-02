@@ -1,0 +1,193 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development - HTML example</title>
+    <link rel="stylesheet" type="text/css" href="UWEhtml4_V2.css" />
+
+    <style>
+        .row:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        /* mobile */
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+
+        /* For desktop: */
+        @media only screen and (min-width: 768px) {
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 600px) {
+            .col-m-12 {
+                width: 8.33%;
+            }
+
+            .col-m-2 {
+                width: 16.66%;
+            }
+
+            .col-m-3 {
+                width: 25%;
+            }
+
+            .col-m-4 {
+                width: 33.33%;
+            }
+
+            .col-m-5 {
+                width: 41.66%;
+            }
+
+            .col-m-6 {
+                width: 50%;
+            }
+
+            .col-m-7 {
+                width: 58.33%;
+            }
+
+            .col-m-8 {
+                width: 66.66%;
+            }
+
+            .col-m-9 {
+                width: 75%;
+            }
+
+            .col-m-10 {
+                width: 83.33%;
+            }
+
+            .col-m-11 {
+                width: 91.66%;
+            }
+
+            .col-m-12 {
+                width: 100%;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        @media only screen and (max-width: 768px) {
+            [class *="col-"] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="col-12 col-m-12">University of the West of England, Bristol</h1>
+
+    <div class="row">
+        <nav style="background-color: aqua;" class="col-3">
+            <a href="http://www1.uwe.ac.uk/aboutus/departmentsandservices/facultiesanddepartments">University
+                Faculties and Departments</a><br />
+            <a href="http://www1.uwe.ac.uk/aboutus/learningandteaching">Learning
+                and Teaching</a><br />
+            <a href="http://www1.uwe.ac.uk/research">Research</a><br />
+        </nav>
+
+        <div class="col-6">
+            <h2>University Faculties and Departments</h2>
+
+            <div class='boxes'>
+                <h2>Faculty of Environment and Technology </h2>
+                <p>The Faculty of Environment and Technology at UWE, is situated in the
+                    beautiful city of Bristol. We are a highly successful and very popular
+                    Faculty of over 6000 students and 450 staff members.
+                </p>
+            </div>
+            <div class='boxes'>
+                <h2>Faculty of Business and Law</h2>
+                <p>The Faculty of Business and Law comprises Bristol Business School and
+                    Bristol Law School who provide a range of undergraduate, postgraduate,
+                    higher research and professional courses covering a wide variety of
+                    business and law subjects.
+                </p>
+            </div>
+            <div class='boxes'>
+                <h2>Faculty of Health and Applied Sciences</h2>
+                <p>The Faculty of Health and Applied Sciences brings together experts
+                    from Allied Health Professions, Biological, Biomedical and Analytical
+                    Sciences, Health and Social Science, and Nursing and Midwifery. See
+                    our department web pages to find out more about our excellent teaching
+                    and research.
+                </p>
+            </div>
+
+        </div>
+        <aside class="col-3">
+            <div class='boxes'>
+                <h2>Faculty of Health and Applied Sciences</h2>
+                <p>The Faculty of Health and Applied Sciences brings together experts
+                    from Allied Health Professions, Biological, Biomedical and Analytical
+                    Sciences, Health and Social Science, and Nursing and Midwifery. See
+                    our department web pages to find out more about our excellent teaching
+                    and research.
+                </p>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="col-12">� 2020 UWE. All rights reserved.</footer>
+
+</body>
+
+</html>

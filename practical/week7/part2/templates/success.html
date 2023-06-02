@@ -1,0 +1,22 @@
+{% extends "layoutbase.html" %}
+{% block title %}Success Page{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { 
+        background-color: white; 
+        color: green; 
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>This is Basic Form DB Example</h1>
+  <h2></h2>
+  <p class="important"> 
+      Successfully done...  
+      {{message}}        
+    <a href="/">Go to Home Page</a>
+  </p>
+{% endblock %}
+
+

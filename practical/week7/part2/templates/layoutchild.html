@@ -1,0 +1,17 @@
+{% extends "layoutbase.html" %}
+{% block title %}Child - Index{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { 
+        background-color: white; 
+        color: green; 
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>Index</h1>
+  <p class="important">
+    This is my homepage 
+  </p>
+{% endblock %}

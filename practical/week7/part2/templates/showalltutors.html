@@ -1,0 +1,31 @@
+{% extends "layoutbase.html" %}
+{% block title %}All Tutors{% endblock %}
+{% block head %} {{ super() }}
+  <style type="text/css">
+    .important { background-color: white; color: green; }
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>This is Basic Form DB Example</h1> <h2>All Tutors</h2>
+  <p class="important"> STUDENTSREG DATABASE <H1> Tutors </H1>
+      <form action="/update_tutor" method="GET">    
+	  <table border = 1> 
+        <tr> <th> Tutor ID </th> <th> Tutor Name </th>
+            <th> DoB </th> <th> Hours </th>
+            <th>Select if you want to update hours to 1</th> </tr>
+	    {% for row in resultset %}
+	    <tr> <td> {{row[0]}} </td> 
+            <td> {{row[1]}} </td> 
+            <td> {{row[2]}} </td> 
+            <td> {{row[3]}} </td> 
+            <td> <input type="radio" name="tutors" value="{{row[0]}}"></td> 
+        </tr> 
+	   {% endfor %} 
+	</table>  
+        <input type="submit" value="Update record"/>
+    </form> 
+    <a href="/">Go to Home Page</a>
+  </p>
+{% endblock %}
+
+

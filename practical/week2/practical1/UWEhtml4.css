@@ -1,0 +1,9 @@
+.nav,.container, h1, footer, .boxes{
+    border: solid gray 1px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.nav>a{
+    margin-right: 10px;
+}
